@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sc_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="8dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/iv_koko" />
+
+    <TextView
+        android:id="@+id/nom_koko"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="8dp"
+        android:fontFamily="@font/sofia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/proverbe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-7dp"
+        android:fontFamily="@font/sofia" />
+
+</LinearLayout>
+
+

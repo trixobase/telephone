@@ -1,0 +1,127 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TelephoneTheme" parent="Theme.AppCompat.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="title">@string/app_name</item>
+    </style>
+
+    <style name="TextView_Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="TextView_Form">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextView_Trixo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TitlePolicy">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/pacifico</item>
+    </style>
+
+    <style name="TextPolicy">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorGrayBlack</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">@font/caviar_bold</item>
+        <item name="android:justificationMode" tools:targetApi="o">inter_word</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:ems">10</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorHint">@color/colorGrayDark</item>
+        <item name="android:background">@drawable/sc_widget</item>
+    </style>
+
+    <style name="Menu_TextAppearance" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextView_ListView">
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:paddingRight">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+    </style>
+
+    <style name="ImageButton_Keyboard_Number">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/sc_button</item>
+    </style>
+
+    <style name="ImageView_Application">
+        <item name="android:src">@drawable/iv_app</item>
+        <item name="android:layout_width">67dp</item>
+        <item name="android:layout_height">67dp</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextView_Main_Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextView_Main_Text" parent="TextView">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+</resources>

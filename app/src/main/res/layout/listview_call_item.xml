@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/rl_call_item_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+        <ImageView
+            android:id="@+id/iv_call_type_id"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_call_name_id"
+            style="@style/TextView_ListView"
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/colorBlack"
+            android:text="Nom et prenom"/>
+
+        <TextView
+            android:id="@+id/tv_call_number_id"
+            style="@style/TextView_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="start"
+            android:textColor="@color/colorGrayDark"
+            android:text="690867833"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_call_date_day_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="bottom|end"
+            android:textColor="@color/colorBlack"
+            android:typeface="sans"
+            android:textSize="7sp"
+            android:text="Aujourd'hui"/>
+
+        <TextView
+            android:id="@+id/tv_call_date_hour_id"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:gravity="top|end"
+            android:typeface="sans"
+            android:textColor="@color/colorBlack"
+            android:textSize="7sp"
+            android:text="13h24"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_call_id"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_call" />
+    </LinearLayout>
+
+</LinearLayout>

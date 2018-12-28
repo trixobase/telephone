@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_favors_id"
+        android:icon="@drawable/ic_favours"
+        android:title="@string/label_text_menu_favours" />
+    <item
+        android:id="@+id/ic_recents_id"
+        android:icon="@drawable/ic_recents"
+        android:title="@string/label_text_menu_recents"/>
+    <item
+        android:id="@+id/ic_keyboard_id"
+        android:icon="@drawable/ic_keyboard"
+        android:title="@string/label_text_menu_keyboard"/>
+    <item
+        android:id="@+id/ic_contacts_id"
+        android:icon="@drawable/ic_contacts"
+        android:title="@string/label_text_menu_contacts"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.telephone.domain.fragment.HomeHistory">
+
+    <include layout="@layout/my_linear" />
+
+    <TableRow style="@style/TextView_Title"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_history_call_all_id"
+            android:layout_width="95dp"
+            android:layout_height="33dp"
+            android:background="@drawable/sc_call_all_active"
+            android:text="@string/label_text_all"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal"/>
+
+        <Button
+            android:id="@+id/bt_history_call_missing_id"
+            android:layout_width="95dp"
+            android:layout_height="33dp"
+            android:background="@drawable/sc_call_missing_not_active"
+            android:text="@string/label_text_missing"
+            android:textSize="14sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="normal"
+            android:layout_marginLeft="0dp"/>
+
+    </TableRow>
+
+    <include layout="@layout/my_linear" />
+
+    <ListView
+        android:id="@+id/lv_history_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tv_history_empty_id"
+        style="@style/TextView_Title"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/lv_phone_contact_id" />
+
+</LinearLayout>

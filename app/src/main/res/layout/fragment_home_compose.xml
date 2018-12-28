@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="cm.trixobase.telephone.domain.fragment.HomeCompose">
+
+    <include layout="@layout/my_linear" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_horizontal|bottom">
+
+        <EditText
+            android:id="@+id/et_number_id"
+            android:layout_width="290dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="-3dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center_horizontal"
+            android:enabled="false"
+            android:fontFamily="@font/allura_regular"
+            android:inputType="phone"
+            android:text="*146*690867833#"
+            android:textColor="@color/colorWhite"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+        <TextView
+            android:id="@+id/tv_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/label_text_erase"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/ib_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/sc_delete_number"
+            android:background="@color/colorAccent"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_one"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_one" />
+
+            <ImageButton
+                android:id="@+id/ib_two"
+                style="@style/ImageButton_Keyboard_Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sc_number_two" />
+
+            <ImageButton
+                android:id="@+id/ib_three"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_three" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_four"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_four" />
+
+            <ImageButton
+                android:id="@+id/ib_five"
+                style="@style/ImageButton_Keyboard_Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sc_number_five" />
+
+            <ImageButton
+                android:id="@+id/ib_six"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_six" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_seven"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_seven" />
+
+            <ImageButton
+                android:id="@+id/ib_height"
+                style="@style/ImageButton_Keyboard_Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sc_number_height" />
+
+            <ImageButton
+                android:id="@+id/ib_nine"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_nine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_star"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_star" />
+
+            <ImageButton
+                android:id="@+id/ib_zero"
+                style="@style/ImageButton_Keyboard_Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sc_number_zero" />
+
+            <ImageButton
+                android:id="@+id/ib_diez"
+                style="@style/ImageButton_Keyboard_Number"
+                android:src="@drawable/sc_number_diese" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_call"
+                style="@style/ImageButton_Keyboard_Number"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sc_number_launch" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

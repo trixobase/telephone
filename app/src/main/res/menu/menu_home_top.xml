@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_contact_id"
+        android:title="@string/action_add_contact"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new_contact" />
+    <item
+        android:id="@+id/ic_menu_id"
+        android:orderInCategory="150"
+        android:icon="@drawable/ic_menu_white"
+        android:title="@string/label_text_menu"
+        app:showAsAction="always"/>
+</menu>

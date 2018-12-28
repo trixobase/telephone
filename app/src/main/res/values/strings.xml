@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Téléphone</string>
+    <string name="app_version" translatable="false">Version 1.0</string>
+
+    <string name="app_proverb_1">L\'élu de mon coeur.</string>
+    <string name="app_proverb_2">Que du bonheur.</string>
+    <string name="app_proverb_3">Mille baisers sur tes beaux yeux.</string>
+    <string name="app_proverb_4">Tout en toi me plait.</string>
+    <string name="app_proverb_5">N\'oublie jamais que je t\'aime.</string>
+    <string name="app_proverb_6">Tu es mon soleil, la lumière de ma vie.</string>
+    <string name="app_proverb_7">Sans toi, tout n\'est que désert.</string>
+    <string name="app_proverb_8">Sur ton joli corps, j\'écrirai des mots d\'amour.</string>
+    <string name="app_proverb_9">Je t\’aime dès mon réveil.</string>
+    <string name="app_proverb_10">Tu es belle à piquer les yeux des garçons.</string>
+    <string name="app_proverb_11">Tu n\’as pas besoin de maquillage.</string>
+    <string name="app_proverb_12">Waouh ! Tes lèvres sont tellement douces.</string>
+    <string name="app_proverb_13">Si t\'étais un délit, tu serais un excès de beauté.</string>
+    <string name="app_proverb_14">Ton sourire me renverse</string>
+    <string name="app_proverb_15">Tu ressembles à une déesse africaine.</string>
+    <string name="app_proverb_16">Je pourrais te contempler éternellement.</string>
+    <string name="app_proverb_17">Un rien te va.</string>
+    <string name="app_proverb_18">Tu es belle à en réveiller les morts.</string>
+    <string name="app_proverb_19">Ta voix me caresse jusqu\’en bas du dos.</string>
+    <string name="app_proverb_20">Tu es ma-gni-fi-que</string>
+
+    <string name="label_text_menu_favours">Favoris</string>
+    <string name="label_text_menu_recents">Récents</string>
+    <string name="label_text_menu_keyboard">Clavier</string>
+    <string name="label_text_menu_contacts">Contacts</string>
+    <string name="action_contact">Nous contacter</string>
+    <string name="action_utility">Conditions d\'utilisation</string>
+    <string name="action_about">A propos</string>
+    <string name="navigation_drawer_open" translatable="false">open</string>
+    <string name="navigation_drawer_close" translatable="false">close</string>
+    <string name="label_text_menu" translatable="false">Menu</string>
+    <string name="label_text_infos" translatable="false">Informations</string>
+    <string name="label_text_me">A propos d\'elle !!</string>
+    <string name="label_text_save">Enregistrer</string>
+    <string name="label_text_erase">effacer</string>
+
+    <string name="label_title_favours">Favoris</string>
+    <string name="label_title_recent">Historique</string>
+    <string name="label_title_keyboard">Composer</string>
+    <string name="label_title_contact">Répertoire</string>
+    <string name="label_title_favorites">Numéro(s) préféré(s)</string>
+
+    <string name="label_text_phone_search_hint">Nom ou numéro</string>
+    <string name="label_text_contact_empty">( Votre répertoire est vide )</string>
+    <string name="label_text_favorite_empty">( Pas de contact a ajouté )</string>
+    <string name="label_text_all_call_empty">( Votre liste d\'appel est vide )</string>
+    <string name="label_text_missing_call_empty">( Aucun appel en abscence )</string>
+
+    <string name="label_text_Menu">Menu</string>
+    <string name="label_text_setting_network">Réglage réseau</string>
+    <string name="label_text_setting">Paramètres</string>
+    <string name="label_text_add">Ajouter</string>
+    <string name="label_text_separator_date">à</string>
+    <string name="label_text_actual">Actuel</string>
+    <string name="label_text_activate">Activer</string>
+    <string name="label_text_all">Tous</string>
+    <string name="label_text_missing">Manqués</string>
+
+    <string name="label_text_amount">Consulte ton crédit ici</string>
+    <string name="label_text_plus" translatable="false">Plus</string>
+    <string name="label_text_operator_orange">Orange Cameroun</string>
+    <string name="label_text_operator_mtn">Mtn Cameroun</string>
+    <string name="label_text_operator_nexttel" translatable="false">Nexttel</string>
+    <string name="label_text_operator_camtel" translatable="false">Camtel</string>
+
+    <string name="label_text_favorites_number">Tes numéros préférés</string>
+    <string name="label_text_favorites_empty">( Aucun favoris enregistrés !! )</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="label_text_phone_search">Rechercher:</string>
+    <string name="action_add_contact">Nouveau contact</string>
+    <string name="label_text_unknown">Inconnu</string>
+
+    <string name="label_text_dialog_button">D\'accord</string>
+    <string name="label_text_dialog_quit">Quitter !</string>
+    <string name="label_text_dialog_quit_question">Etes-vous sûr ?</string>
+    <string name="label_text_dialog_no">Annuler</string>
+    <string name="label_text_dialog_yes">Oui</string>
+    <string name="label_text_dialog_validate">Valider</string>
+
+    <string name="slogan_best">T\'es la meilleure %s !!</string>
+    <string name="slogan_good_day">Passe une belle journée %s !</string>
+    <string name="slogan_think">%s je pense tout le temps à toi !</string>
+    <string name="slogan_morning">Bonjour %s, ma puce adorée !</string>
+    <string name="slogan_evening">Bonsoir %s, ma puce adorée !</string>
+    <string name="slogan_love_me">Aime-moi un peu %s.. mais pour longtemps !</string>
+    <string name="slogan_paradis">%s, Tu as un goût de paradis.</string>
+    <string name="slogan_sunday">Tu illumines mes dimanches %s.</string>
+    <string name="slogan_noel">Mon plus beau cadeau de Noël, c’est toi %s.</string>
+    <string name="slogan_name">%s.. on devrait donner ton nom à une fleur.</string>
+    <string name="slogan_tapioca">%s, t\'es le sucre de mon tapioca lol.</string>
+    <string name="slogan_place">Tu es irremplaçable %s.</string>
+
+    <string name="label_day_lundi">Lundi</string>
+    <string name="label_day_mardi">Mardi</string>
+    <string name="label_day_mercredi">Mercredi</string>
+    <string name="label_day_jeudi">Jeudi</string>
+    <string name="label_day_vendredi">Vendredi</string>
+    <string name="label_day_samedi">Samedi</string>
+    <string name="label_day_dimanche">Dimanche</string>
+
+    <string name="label_month_jan">Janvier</string>
+    <string name="label_month_fev">Février</string>
+    <string name="label_month_mar">Mars</string>
+    <string name="label_month_avr">Avril</string>
+    <string name="label_month_may">Mai</string>
+    <string name="label_month_jun">Juin</string>
+    <string name="label_month_juil">Juillet</string>
+    <string name="label_month_aou">Août</string>
+    <string name="label_month_sep">Septembre</string>
+    <string name="label_month_oct">Octobre</string>
+    <string name="label_month_nov">Novembre</string>
+    <string name="label_month_dec">Décembre</string>
+
+    <string name="dialog_setting_title">Sélectionne ton opérateur téléphonique:</string>
+    <string name="dialog_message_delete">Supprimer \"%s\" de tes favoris ?</string>
+    <string name="dialog_title_contact">Nouveau contact</string>
+
+    <string name="error_favorite_save">Erreur: favoris rejeté(s)</string>
+    <string name="error_favorite_save_min">%s, tu n\'as pas sélectionné de contact !</string>
+    <string name="error_favorite_save_max">Maximum recquis:</string>
+    <string name="error_favorite_add">%s tu ne peux plus ajouter de favoris !</string>
+    <string name="error_contact_save_number">Numéro de téléphone manquant !</string>
+    <string name="error_contact_save">Erreur lors de l\'enregistrement !</string>
+    <string name="error_permission">Autorisation recquise pour continuer !</string>
+    <string name="error_permission_desactivate">Autorisation désavtivée !</string>
+
+    <string name="success_favorite_sigle_added">Contact ajouté aux favoris !</string>
+    <string name="success_favorite_several_added">Contacts ajoutés aux favoris !</string>
+    <string name="success_contact_saved">Contact enregistré !</string>
+
+    <string name="label_form_name">Nom</string>
+    <string name="label_form_surname">Prénom</string>
+    <string name="label_form_number">Numéro</string>
+    <string name="label_form_email">Email</string>
+    <string name="label_form_town">Ville</string>
+    <string name="label_form_country">Pays</string>
+
+    <string name="label_text_trixobase" translatable="false">trixobase</string>
+    <string name="label_text_trixobase_copyrights" translatable="false">© 2007 trixobase copyright</string>
+    <string name="label_text_trixobase_rights" translatable="false">All rights reserved</string>
+    <string name="label_text_telephone_trixobase_copyrights" translatable="false">© 2018 trixobase copyright</string>
+    <string name="label_text_telephone_about">Cette application est une oeuvre unique et exclusive destinée à:</string>
+    <string name="label_text_trixobase_infos" translatable="false">\@trixobase\nNoumia Nguebissie\nCEO</string>
+    <string name="label_text_trixobase_address">noumiajp@gmail.com\n (+237) 690 867 833  \n Cameroun - Yaoundé  \n Mermoz Rue 2378</string>
+    <string name="policy_title_1">Données personnelles</string>
+    <string name="policy_text_1">En utilisant l\’Application, l\’Utilisateur accepte de fournir un certain nombre de données à caractère personnel qui seront traitées conformément aux dispositions de la loi du 6 janvier 1978 relative à l\'informatique, aux fichiers et aux libertés. Téléphone, by trixobase copyright est responsable du traitement de toutes les données personnelles collectées via l\’Application.</string>
+    <string name="policy_title_2">Traitement des données personnelles</string>
+    <string name="policy_text_2">Les informations recueillies par Téléphone font l’objet d’un traitement informatique destiné à :  \n• Définir un contact comme numéro préféré; \n• Restituer à l’utilisateur les données de chacun de ses contacts enregistrés ainsi que leur informations; \n• Passer un appel téléphonique;\n• De consulter l\'historique des appels effectués; \n• Modifier ou supprimer un contact;\n• Traiter les propositions d’évolutions et anomalies remontées et répondre aux questions posées par les clients ; \n• Gérer les « réclamations » clients remontées par la rubrique « contacter nous ». \n• Adresser des offres commerciales aux Utilisateurs. \n\nLes données collectées directement par Téléphone sont nécessaires à ces traitements et sont destinées aux services concernés.</string>
+    <string name="policy_title_3">Autorisations de l’application</string>
+    <string name="policy_text_3">• CONTACTS : lecture et écriture des contacts (nom, prenom, numéro)\n• APPELS : appel des contats et favoris enregistrés et affichage de l\'historique d\'appels.</string>
+
+</resources>

@@ -1,0 +1,124 @@
+<RelativeLayout
+    android:id="@+id/rl_about_contenair_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cm.trixobase.telephone.domain.fragment.MenuAbout"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/pacifico"
+        android:gravity="bottom"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32sp" />
+
+    <TextView
+        style="@style/TextView_Trixo"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:gravity="top|center_horizontal"
+        android:text="@string/app_version"
+        android:textColor="@color/colorPinkDark"
+        android:layout_marginTop="-8dp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/iv_app1"
+        android:id="@+id/imageView2"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        style="@style/TextView_Trixo"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:text="@string/label_text_telephone_trixobase_copyrights"
+        android:textColor="@color/colorPinkDark"
+        android:textSize="11dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        style="@style/TextView_Trixo"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:text="@string/label_text_trixobase_rights"
+        android:textColor="@color/colorPinkDark"
+        android:textSize="11dp"
+        android:id="@+id/textView5" />
+
+    <LinearLayout
+        android:id="@+id/ll_about_plus_id"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/bt_about_plus_id"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_about_dedicace_id"
+                style="@style/TextView_Trixo"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="@string/label_text_telephone_about"
+                android:textColor="@color/colorGrayBlack"
+                android:textSize="9sp"
+                android:fontFamily="@font/pacifico"/>
+
+            <TextView
+                android:id="@+id/tv_about_koko_name_all_id"
+                style="@style/TextView_Trixo"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:fontFamily="@font/pacifico"
+                android:textSize="21sp"
+                android:text="carole la divine"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_about_koko_about_id"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_about_plus_id"
+        style="@style/TextView_Trixo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/label_text_plus"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13dp" />
+
+</RelativeLayout>

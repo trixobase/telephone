@@ -1,0 +1,214 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cm.trixobase.telephone.domain.fragment.HomeFavours">
+
+    <include layout="@layout/my_linear" />
+
+    <TextView
+        android:id="@+id/tv_favours_slogan_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical|start"
+        android:maxEms="15"
+        android:fontFamily="@font/sofia"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_layout_receiver_id"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="7dp"
+        android:paddingLeft="15dp"
+        android:background="@color/colorWhite">
+
+
+        <ImageView
+            android:id="@+id/iv_contact_operator_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/iv_emoticon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_favours_call_credit_id"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@+id/iv_contact_operator_id"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/tv_contact_name_id"
+                style="@style/TextView_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="bottom"
+                android:text="@string/label_text_amount"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tv_operator_id"
+                style="@style/TextView_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="end"
+                android:text="@string/label_text_operator_orange"
+                android:textColor="@color/colorGrayDark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_setting_id"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ll_favours_call_credit_id"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/sc_setting" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_commander_id"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingRight="7dp"
+        android:paddingLeft="15dp"
+        android:background="@color/colorWhite">
+
+
+        <ImageView
+            android:id="@+id/iv_boy_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/ll_favours_id"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toEndOf="@+id/iv_boy_id"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/tv_favours_boy_name_id"
+                style="@style/TextView_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="bottom"
+                android:textColor="@color/colorBlack" />
+
+            <TextView
+                android:id="@+id/tv_favours_boy_number_id"
+                style="@style/TextView_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="16dp"
+                android:gravity="end"
+                android:textColor="@color/colorGrayDark" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_text_favorites_number"
+            android:fontFamily="@font/sofia"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/bt_favours_add_id"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginLeft="137dp"
+            android:gravity="center"
+            android:text="@string/label_text_add"
+            android:textColor="@color/colorBlack"
+            android:textSize="8sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ListView
+        android:id="@+id/lv_favorites_contacts_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/tv_favours_contact_empty_id"
+        style="@style/TextView_Title"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/lv_favorites_id"
+        android:text=""/>
+
+</LinearLayout>
